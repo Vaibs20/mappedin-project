@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TrackMart</title>
+    <link rel="stylesheet" href="styleee.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="shoppingCartLocation.jpeg" alt="TrackMart">
+        </div>
+        <div class="logo">TrackMart</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-icons">
+            <button id="openSignInBtn" class="btn">Sign In</button>
+            <button id="openSignUpBtn" class="btn">Sign Up</button>
+            <span>❤️</span>
+            <span>🛒</span>
+            <span>👤</span>
+        </div>
+    </nav>
+
+
+
+
+
+    <div id="signInModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeSignIn">&times;</span>
+            <h2>Sign In</h2>
+            <form id="signInForm">
+                <label for="signInEmail">Email:</label>
+                <input type="email" id="signInEmail" required>
+                <label for="signInPassword">Password:</label>
+                <input type="password" id="signInPassword" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeSignUp">&times;</span>
+            <h2>Register</h2>
+            <form id="signUpForm">
+
+                <label for="signUpFirstName">First Name:</label>
+                <input type="name" id="signUpFirstName" required>
+
+
+                <label for="signUpLastName">Last Name:</label>
+                <input type="name" id="signUpLastName" required>
+                <label for="signUpEmail">Email:</label>
+                <input type="email" id="signUpEmail" required>
+                <label for="signUpPassword">Set Password:</label>
+                <input type="password" id="signUpPassword" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to TrackMart</h1>
+        <p>The Revolutionary shopping experience that's changing the way you navigate and interact with your favorite
+            retail Stores!</p>
+        <p>Say goodbye to getting lost in aisles and hello to personalized shopping journey. </p>
+        <button class="btn"><a href="http://localhost:1234">Track Now</a></button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="shopping bag.jpeg" alt="">
+                <h2 class="h-secondary center">Add items</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam,
+                    recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="efficiency.jpeg" alt="">
+                <h2 class="h-secondary center">Space Planning</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab
+                    dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="arrangement.png" alt="">
+                <h2 class="h-secondary center">Arrange</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam
+                    minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Explore</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="trendy.jpeg" alt="Our Services">
+            </div>
+            <div class="client-item">
+                <img src="unique.jpeg" alt="Our Services">
+            </div>
+
+            <div class="client-item">
+                <img src="sale.jpeg" alt="Our Services">
+            </div>
+            <div class="client-item">
+                <img src="bestSelling.jpeg" alt="Our Services">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="scripttt.js"></script>
+</body>
+
+</html>
